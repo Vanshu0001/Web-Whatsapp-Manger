@@ -18,7 +18,7 @@ options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1920x1080")
 
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(executable_path="/tmp/chromedriver", options=options)
 
 # Navigate to WhatsApp web
 driver.get(whatsapp_url)

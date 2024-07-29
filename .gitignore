@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# Docker
+*.log
+Dockerfile
+
+# Flask
+instance/
+.mypy_cache/
+.pytest_cache/
